@@ -1,6 +1,16 @@
 {
   "settingsInheritedFrom": "Gal-Doron/whitesource-config@main",
   "remediateSettings": {
-    "enableRenovate": true
+    "enableRenovate": true,
+    "packageRules": [
+      {
+        "matchDatasources": [
+          "pypi"
+        ],
+        "registryUrls": [
+          "https://pypi.org/simple"
+        ]
+      }
+    ]
   }
 }
